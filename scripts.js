@@ -5,10 +5,12 @@ let hours = fullDate.getHours();
 let minutes = fullDate.getMinutes();
 let secs = fullDate.getSeconds();
 
-if (hours < 10) {hours = "0" + hours};
+
 if (minutes < 10) {mintues = "0" + minutes};
 if (secs < 10) {secs = "0" + secs};
 if (hours > 12) {hours = hours -12};
+if (hours > 12) {hours = "0"+ (hours -12)}
+else if (hours < 10) {hours = "0" + hours};
 
 
 document.getElementById('hours').innerHTML = hours;

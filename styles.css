@@ -34,11 +34,10 @@ body {
     border-radius: 25%;
 }
 
-footer {
-    bottom: 0;
-    left: 37%;
-    position: absolute;
-    margin: auto auto 0 auto;
+.music {
+    height: 380px;
+    width: 300px;
+    margin: 350px auto 0;
 }
 
 .colon {
